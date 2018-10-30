@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+args="$@"
+sh gradlew -q run -Pargs="$args"
